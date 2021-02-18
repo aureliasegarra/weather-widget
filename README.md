@@ -1,6 +1,6 @@
-#  :spaghetti: My Recipe App
+# :sun_behind_small_cloud: Create a weather widget
 
-## :sun_behind_small_cloud: Create a weather widget
+## Create a widget with create-react-app
 
 ## Illustration
 ![Exemple](screenshot.png)
