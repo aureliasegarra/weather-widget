@@ -5,7 +5,7 @@ import './App.scss';
 function App() {
   return (
     <div className="app">
-      <h1 className="title">Weather Widget</h1>
+      <h1 className="title">Weather Widget <span>...</span></h1>
       <Widget city='Paris' zipcode={75000} />
     </div>
   );

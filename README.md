@@ -3,7 +3,7 @@
 ## :sun_behind_small_cloud: Create a weather widget
 
 ## Illustration
-![Exemple]()
+![Exemple](screenshot.png)
 
 ## Language/tools
 - HTML5 / CSS3 / SCSS
@@ -17,7 +17,7 @@
 - UX / UI
 
 ## Status
-Project not completed
+Project completed
 
 ## Context
 Project carried out during my training as a web developer
