@@ -14,7 +14,6 @@ const Widget = ({ city, zipcode }) => {
 
     axios.get(url)
       .then(response => {
-        // je vais stocker la valeur de la temperature dans le state
         console.log('response', response);
         const temp = Math.round(response.data.main.temp);
         setTemperature(temp);

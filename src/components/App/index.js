@@ -1,9 +1,11 @@
 import Widget from '../Widget/index';
 import './App.scss';
 
+
 function App() {
   return (
-    <div className="App">
+    <div className="app">
+      <h1 className="title">Weather Widget</h1>
       <Widget city='Paris' zipcode={75000} />
     </div>
   );

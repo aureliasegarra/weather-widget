@@ -1,0 +1,35 @@
+.weather-widget {
+    width: 350px;
+    height: 200px;
+    background-color:#0A2044;
+    border: 5px solid white;
+    padding: 50px;
+    border-radius: 20px;
+    color: white;
+    font-size: 2em;
+    &__container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    &__loading> {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    &__city {
+      font-weight: bold;
+      font-size: 1.5em;
+    }
+    &__zipcode {
+      font-size: .6em;
+      opacity: .7;
+    }
+    &__temperature {
+      font-weight: bold;
+      font-size: 2em;
+    }
+    p {
+      margin: 0;
+    }
+  }
